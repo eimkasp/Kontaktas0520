@@ -1,0 +1,96 @@
+body {
+  font-family: "Roboto";
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1{
+   margin-top: -0px;
+  margin-right: 200px;
+  font-size: 40px; 
+  font-weight: 900;
+}
+
+p{
+  font-size: 16px;
+  line-height: 1.7;
+  }
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+
+.box {
+  float: left ; 
+  width: 48%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+ 
+}
+
+.contact {
+  float: right; 
+  padding: 24px;
+  width: 48%;
+  box-sizing: border-box;
+}
+
+.input-single input {
+  font-size: 16px;
+     background-color: #f3f3f3;
+  color:grey;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding:10px;
+  border-style: none;
+  border-radius: 5px;
+  width: 80%;
+  }
+
+  textarea {
+    font-size: 16px;
+   
+    line-height: 1.5;
+    background-color: #f3f3f3;
+    color:grey;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding:10px;
+    border-style: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 200px;
+  }
+
+  /* input[type=submit] */
+  
+  .submit-button input {
+  color: white;
+  background-color: black;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 15px;
+  border-style: none;
+   }
+
+
+   @media only screen and (max-width: 768px) {
+    [class*=box] {
+width: 100%;
+    }
+
+    body {
+        background-color: green;
+        }
+}
+
+
